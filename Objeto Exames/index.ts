@@ -24,11 +24,11 @@ exam.add(
   })
 );
 
-console.log(exam.avg()); // 4
-console.log(exam.min()); // [4]
-console.log(exam.max()); // [4]
-console.log(exam.lt(7)); // [4]
-console.log(exam.gt(7)); // []
+console.log(exam.avg()); 
+console.log(exam.min()); 
+console.log(exam.max()); 
+console.log(exam.lt(7)); 
+console.log(exam.gt(7)); 
 
 exam.add(
   new Answer('Bob', {
@@ -40,8 +40,8 @@ exam.add(
   })
 );
 
-console.log(exam.avg()); // 6
-console.log(exam.min()); // [4]
-console.log(exam.max()); // [8]
-console.log(exam.lt(7)); // [4]
-console.log(exam.gt(7)); // [8]
+console.log(exam.avg());  
+console.log(exam.min()); 
+console.log(exam.max()); 
+console.log(exam.lt(7)); 
+console.log(exam.gt(7)); 
